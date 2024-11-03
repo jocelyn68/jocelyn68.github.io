@@ -1,0 +1,19 @@
+baseURL = 'https://jocelyn68.github.io/'
+languageCode = 'zh-Hans'
+theme = 'hugo-theme-moments'
+# 分页大小
+paginate = 10
+paginatePath = '.'
+
+[params]
+    title = "Jocelyn's Fantastic Island"
+    signature = "人生如逆旅，我亦是行人。"
+    name = "Jocelyn"
+
+[module]
+  [[module.mounts]]
+    source = 'posts/moments'
+    target = 'content/moments'
+  [[module.mounts]]
+    source = 'posts/notes'
+    target = 'content/notes'

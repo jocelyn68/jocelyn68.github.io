@@ -1,0 +1,3 @@
+[submodule "themes/hugo-theme-moments"]
+	path = themes/hugo-theme-moments
+	url = https://github.com/qtopie/hugo-theme-moments
